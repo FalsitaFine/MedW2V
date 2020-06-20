@@ -1,6 +1,7 @@
 # MedW2V
 
 A trained medical Word2Vec model.
+(Model ONLY)
 
 ---Play with the model---
 
