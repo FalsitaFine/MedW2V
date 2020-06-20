@@ -1,5 +1,7 @@
 from gensim.models import Word2Vec
 import os
+import sys
+
 
 writef = open("w2v_sim_table20000.csv",'a')
 

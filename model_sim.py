@@ -1,4 +1,6 @@
 import os
+import sys
+
 from gensim.models import Word2Vec
 
 
@@ -10,7 +12,7 @@ model = Word2Vec.load(model_name)
 #testbench = ['fever','virus','dead','cancer','hospital']
 testbench = []
 topno = 1
-for i in len(sys.argv):
+for i in range(len(sys.argv)):
 	if (i == 1):
 		topno = int(sys.argv[i])
 	if (i > 1):
