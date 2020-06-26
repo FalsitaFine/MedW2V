@@ -13,3 +13,6 @@ python3 model_table.py 200
 
 Visualize the words:
 python3 model_visualize.py 200
+
+PHO model:
+python3 model_ph.py 10 'fever' 'virus' 'dead' 'cancer' 'hospital'
